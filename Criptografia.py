@@ -1,8 +1,8 @@
-texto = input("Digite seu cdigo para Criptografar ou Decriptar ")
+texto = input("Digite seu código para Criptografar ou Decriptar ")
 modo = input("Decriptar(d)? ou Criptografar(c)? ")
 modo = modo.upper()
 if(modo == "C"):
-  chave = int(input("Chave de Rotao: "))
+  chave = int(input("Chave de Rotação: "))
 CARACTERES = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 convertido = ""
 texto = texto.upper()
@@ -20,7 +20,7 @@ if modo == "C":
         num = num+len(CARACTERES)
       convertido = convertido+CARACTERES[num]
   if modo == "C":
-   print("Seu texto criptografado ",convertido)
+   print("Seu texto criptografado: ",convertido)
 
 elif modo == "D":
   for i in range(1,27):
@@ -36,7 +36,7 @@ elif modo == "D":
             num = num+len(CARACTERES)
         convertido = convertido+CARACTERES[num]
     if modo == "D":
-        print(i,"- Seu texto decriptado ",convertido)
+        print(i,"- Seu texto decriptado: ",convertido)
         
 else:
-    print("Opo Invlida")
+    print("Opção Inválida")
