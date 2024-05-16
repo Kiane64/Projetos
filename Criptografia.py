@@ -18,7 +18,7 @@ if modo == "E":
       if num < 0:
         num = num+len(CARACTERES)
       convertido = convertido+CARACTERES[num]
-  print("Seu texto encriptado: ",convertido)
+  print("Seu texto encriptado:",convertido)
 
 elif modo == "D":
   for i in range(1,27):
@@ -32,7 +32,7 @@ elif modo == "D":
         if num < 0:
             num = num+len(CARACTERES)
         convertido = convertido+CARACTERES[num]
-    print(i,"- Seu texto decriptado: ",convertido)
+    print(i,"- Seu texto decriptado:",convertido)
         
 else:
     print("E ou D e tu coloca outro coisa é?")
