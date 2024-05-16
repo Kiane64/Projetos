@@ -3,7 +3,7 @@ modo = input("Decriptar(d)? ou Criptografar(c)? ")
 modo = modo.upper()
 if(modo == "C"):
   chave = int(input("Chave de Rotação: "))
-CARACTERES = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+CARACTERES = "ABCDEFGHIJKLMNOPQRSTUVWXYZ "
 convertido = ""
 texto = texto.upper()
 
